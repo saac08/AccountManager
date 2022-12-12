@@ -1,0 +1,103 @@
+.contentContainer {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    padding: 0 15rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.numberAccounts {
+    color: #6d28d9;
+}
+
+.btnAñadirCuentas {
+    background-color: #6d28d9;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    transition: 300ms;
+    font-weight: 700;
+}
+
+.btnAñadirCuentas:hover {
+    background-color: #5b21b6;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.cardItem {
+    background-color: #18181b;
+    padding: 3rem 1.5rem;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actionButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.editButton {
+    background-color: #8b5cf6;
+    padding: .4rem 1.5rem;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 1.1em;
+    transition: 250ms;
+    text-align: center;
+}
+
+.editButton:hover {
+    background-color: #5b21b6;
+}
+
+.deleteButton {
+    background-color: #dc2626;
+    color: #f8fafc;
+    border: none;
+    padding: .4rem 1.5rem;
+    border-radius: 3px;
+    font-size: 1.1em;
+    font-weight: 400;
+    transition: 250ms;
+}
+
+.deleteButton:hover {
+    background-color: #991b1b;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.link {
+    font-weight: 700;
+    color: #737373;
+    transition: 200ms;
+    width: fit-content;
+}
+
+.link:hover {
+    color: #8b5cf6;
+}
+
+span {
+    color: #737373;
+}

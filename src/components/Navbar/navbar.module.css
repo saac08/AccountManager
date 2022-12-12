@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    padding: 2rem 15rem;
+    background-color: #18181b;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkItem {
+    font-weight: bold;
+}
+
+.linkItem:hover {
+    color: blueviolet;
+}
